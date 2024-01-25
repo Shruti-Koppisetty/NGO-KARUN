@@ -523,7 +523,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero:before {
   content: "";
   /* background: rgba(21, 5, 23, 0.5) linear-gradient(rgba(26, 0, 33, 0.5) 0%, rgba(26, 0, 33, 0.5) 5%, rgba(38, 6, 51, 0.5) 40%, rgba(147, 47, 69, 0.7) 76%, rgba(236, 97, 93, 0.7) 94%, rgba(236, 97, 93, 0.5) 100%) repeat scroll 0% 0%; */
-  background: rgba(0, 0, 0, 0.8);
+  background: rgba(16, 15, 15, 0.8);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -576,10 +576,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 #hero .btn-get-started:hover {
   background: rgba(0,0,0,0.8);
-  border-right: 2px solid #9A4278;
-  border-left: 2px solid #9A4278;
-  border-top: 2px solid #3AB4C3;
-  border-bottom: 2px solid #3AB4C3;
+  border-right: 2px solid #ff0000;
+  border-left: 2px solid #ff0000;
+  border-top: 2px solid #ffffff;
+  border-bottom: 2px solid #ffffff;
 }
 .two-buttons{
   display: flex;
