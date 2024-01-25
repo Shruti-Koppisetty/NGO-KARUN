@@ -1109,7 +1109,7 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: url("../../images/seawave-footer-bg.webp") center no-repeat;
+  background: url("../../images/background-images/footer-bg.jpg") center no-repeat;
   background-size: cover;
   color: #fff;
   font-size: 14px;
