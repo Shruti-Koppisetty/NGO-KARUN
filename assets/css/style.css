@@ -18,12 +18,12 @@ body {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #3AB4C3;
+  background: #e83131;  /* */
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #9A4278;
+  background: #e83131; /*#9A4278;*/
 }
 
 a {
@@ -59,8 +59,8 @@ h1, h2, h3, h4, h5, h6 {
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border-top: 6px solid #3AB4C3;
-  border-bottom: 6px solid #9A4278;
+  border-top: 6px solid #d51111; /* */
+  border-bottom: 6px solid #e83131;/*#9A4278;*/
   border-top-color: white;
   border-radius: 50%;
   width: 60px;
@@ -108,7 +108,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 0;
 }
 .back-to-top:hover {
-  background: #9A4278;
+  background: #e83131;/*#9A4278;*/
   color: #fff;
 }
 .back-to-top.active {
@@ -209,10 +209,10 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 4px;
   transition: 0.5s;
   margin-left: 0px;
-  border-right: 2px solid #9A4278;
-  border-left: 2px solid #9A4278;
-  border-top: 2px solid #3AB4C3;
-  border-bottom: 2px solid #3AB4C3;
+  border-right: 2px solid #e83131;
+  border-left: 2px solid #e83131;
+  border-top: 2px solid #e83131;
+  border-bottom: 2px solid #e83131;
   color: #fff;
 }
 
@@ -254,7 +254,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 0;
 }
 .header-social-links a:hover {
-  color: #3AB4C3;
+  color: #e83131;/*#3AB4C3;*/
   transform: scale(1.05);
   -webkit-transform: scale(1.05);
   -moz-transform: scale(1.05);
@@ -328,7 +328,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 2px;
   bottom: -7px;
   left: 0;
-  background-color: #3AB4C3;
+  background-color: #e83131;/*#3AB4C3;*/
   visibility: hidden;
   width: 0px;
   transition: all 0.3s ease-in-out 0s;
@@ -646,7 +646,7 @@ section {
   display: block;
   width: 50px;
   height: 3px;
-  background: linear-gradient(to right, #3AB4C3 0%, #9A4278 100%);
+  background: linear-gradient(to right, #e83131/*#3AB4C3*/ 0%, #e83131 100%);
   bottom: 0;
   left: calc(50% - 25px);
 }
@@ -699,24 +699,24 @@ section {
   -webkit-animation-delay: 0.8s;
   animation-delay: 0.8s;
   margin-top: 6px;
-  color: #9A4278;
-  border-right: 2px solid #9A4278;
-  border-left: 2px solid #9A4278;
-  border-top: 2px solid #3AB4C3;
-  border-bottom: 2px solid #3AB4C3;
+  color: #0a090a;
+  border-right: 2px solid #e83131;
+  border-left: 2px solid #e83131;
+  border-top: 2px solid #e83131;
+  border-bottom: 2px solid #e83131;
 }
 .about .content .btn-learn-more:hover {
-  border-right: 2px solid #3AB4C3;
-  border-left: 2px solid #3AB4C3;
-  border-top: 2px solid #9A4278;
-  border-bottom: 2px solid #9A4278;
+  border-right: 2px solid #0a0b0b;
+  border-left: 2px solid #0a0b0b;
+  border-top: 2px solid #0a0b0b;
+  border-bottom: 2px solid #0a0b0b;
   /* background-color: rgba(0, 0, 0, 0.75); */
-  color: #3AB4C3;
+  color: #121213;
   text-decoration: none;
 }
 
 .about .content li:hover i{
-  color: #18d26e;
+  color: #e83131;
 }
 @media (min-width: 769px) and (max-width: 1439px) {
   .about .content .btn-learn-more{
@@ -738,7 +738,7 @@ section {
 .counts .counters span {
   font-size: 48px;
   display: block;
-  color: #3AB4C3;
+  color: #e83131;
 }
 .counts .counters p {
   padding: 0;
@@ -791,7 +791,7 @@ section {
   text-decoration: underline;
 }
 .our-values .card {
-  background: #3AB4C3;
+  background: #f17a7a;
 }
 .our-values .card .read-more a, .our-values .card .card-title, .our-values .card .card-title a, .our-values .card .card-text {
   color: #fff;
@@ -909,7 +909,7 @@ section {
   margin: 0 0 0 45px;
 }
 .testimonials .testimonial-item .quote-icon-left, .testimonials .testimonial-item .quote-icon-right {
-  color: #9A4278;
+  color: #e83131;
   font-size: 26px;
 }
 .testimonials .testimonial-item .quote-icon-left {
@@ -945,7 +945,7 @@ section {
   border: 1px solid #9A4278;
 }
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #9A4278;
+  background-color: #e83131;
 }
 
 /*--------------------------------------------------------------
@@ -1026,7 +1026,7 @@ section {
 }
 .contact .info i {
   font-size: 20px;
-  color: #9A4278;
+  color: #e83131;
   float: left;
   width: 44px;
   height: 44px;
@@ -1048,13 +1048,13 @@ section {
   padding: 0 0 0 60px;
   margin-bottom: 0;
   font-size: 14px;
-  color: #62176b;
+  color: #1c1b1b;
 }
 .contact .info .email, .contact .info .phone {
   margin-top: 40px;
 }
 .contact .info .email:hover i, .contact .info .address:hover i, .contact .info .phone:hover i {
-  background: #9A4278;
+  background: #f37070;
   color: #fff;
 }
 
